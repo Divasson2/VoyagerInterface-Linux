@@ -1,0 +1,3 @@
+# VoyagerInterface: HP 12C / 15C / 16C CE in USB memory mode (f-ENTER-ON), USB 03F0:1341.
+# Access for the plugdev group, and for the logged-in desktop user where logind gives seat ACLs (uaccess).
+KERNEL=="hidraw*", ATTRS{idVendor}=="03f0", ATTRS{idProduct}=="1341", MODE="0660", GROUP="plugdev", TAG+="uaccess"

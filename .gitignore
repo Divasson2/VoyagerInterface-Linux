@@ -1,0 +1,25 @@
+# Firmware / ROM images (never ship these)
+*.hex
+*.srec
+*.elf
+*.rom
+
+# Runtime backups and logs (user data written by the app)
+VoyagerInterface Backups/
+*.log
+*.bak
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Editor / OS junk
+.DS_Store
+.idea/
+.vscode/
+*.swp
